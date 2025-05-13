@@ -1,0 +1,45 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    width:750;
+    height: 100vh;
+    background-color: rgb(232, 250, 252);
+    color: black;
+    background-size: cover;
+}
+.wh-card{
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px gray;
+    margin-left: 500px;
+    margin-top: 150px;
+    z-index: -1;
+   
+}
+.bl-card{
+flex-wrap: wrap;
+flex-direction: row-reverse;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(38, 51, 163);
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px gray;
+    margin-left:320px;
+    margin-top: -450px;
+    
+    z-index: -1;
+}
+#grad-1{
+    background-color: blue;
+    background-image: linear-gradient(rgb(0, 0, 99) , rgb(59, 59, 255));
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 90px;
+
+}
+   
