@@ -14,10 +14,10 @@ body{
 
 #grad-1{
     background-color: blue;
-    background-image: linear-gradient(rgb(8, 8, 202) , rgb(114, 128, 255));
+    background-image: linear-gradient(rgb(0, 0, 94) , rgb(46, 64, 231));
     height: 150px;
     width: 150px;
-margin-top: 40px;
+margin-top: 30px;
     border-radius: 50%;
     margin-left: 90px;
 
