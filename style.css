@@ -25,7 +25,7 @@ flex-wrap: wrap;
 flex-direction: row-reverse;
     width: 350px;
     height: 450px;
-    background-color: rgb(38, 51, 163);
+    background-color: rgb(68, 85, 238);
     border-radius: 30px;
     box-shadow: 2px 2px 5px gray;
     margin-left:320px;
@@ -35,11 +35,21 @@ flex-direction: row-reverse;
 }
 #grad-1{
     background-color: blue;
-    background-image: linear-gradient(rgb(0, 0, 99) , rgb(59, 59, 255));
+    background-image: linear-gradient(rgb(8, 8, 202) , rgb(114, 128, 255););
     height: 150px;
     width: 150px;
+margin-top: 40px;
     border-radius: 50%;
     margin-left: 90px;
 
+}
+
+
+
+@font-face {
+    font-family:h2;
+    src: url(wf.ttf);
+}
+h2{
 }
    
