@@ -3,14 +3,15 @@
     margin: 0;
 }
 body{
-    width:750;
-    height: 100vh;
+
     background-color: rgb(232, 250, 252);
     color: black;
-    background-size: cover;
-}
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-   
+}
 
 #grad-1{
     background-color: blue;
@@ -19,8 +20,12 @@ body{
     width: 150px;
 margin-top: 30px;
     border-radius: 50%;
-    margin-left: 90px;
 
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        margin-bottom: 10px;
 }
 
 .flex-container{
@@ -28,22 +33,94 @@ margin-top: 30px;
     justify-self: left;
   align-items: center;
   background-color: white;
-  width: 654px;
+  width: 677px;
   height: 450px;
   border-radius: 30px 30px 30px 30px;
 margin-left: 300px;
 margin-top: 100px;
 }
-.flex-container > div1{
 
-flex-direction: row-reverse;
-    width: 350px;
-    height: 450px;
-    background-color: rgb(68, 85, 238);
-    border-radius: 30px;
-    box-shadow: 2px 2px 5px gray;    
-    
+.white{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
 }
+
+.blue{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        background-color: rgb(42, 68, 180);
+    padding: 30px;
+    border-radius: 20px;
+        color: white;
+}
+ .per-no{
+    font-size: 70px;
+
+ }
+
+.score {
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    }
+
+    .reaction { background: #ffe6e6; color: #ff4d4d;
+    width: 80%; }
+    .memory { background: #fff5e6; color: #f5a623; 
+    width: 80%;}
+    .verbal { background: #e6fff5; color: #2cc185;
+    width: 80%; }
+    .visual { background: #e6f0ff; color: #5b84ff;
+    width: 80%; }
+
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    display: flex
+;
+
+
+}
+.button{
+ color: white;
+width: 80%;
+background-color: #3030dd;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+
+
+}
+.para{
+    padding: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -52,6 +129,12 @@ flex-direction: row-reverse;
     src: url(wf.ttf);
 }
 h2{
+    font-family: h2;
+}
+a{
+    font-family: h2;
+}
+p{
     font-family: h2;
 }
    
